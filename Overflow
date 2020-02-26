@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<p>
+  
+    <h1> Overflow <h1></center>
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  </p>
+   
+  
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SXgYS23R--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/3P2H2C0b0V1F/Image%25202018-05-07%2520at%25204.47.33%2520PM.png" </img>
+  
+  
+  
+  <p>
+    The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
 
+The overflow property has the following values:
+
+visible - Default. The overflow is not clipped. The content renders outside the element's box.
+hidden - The overflow is clipped, and the rest of the content will be invisible.
+scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content.
+auto - Similar to scroll, but it adds scrollbars only when necessary.
+    
+    
+    
+    
+  </p>
+  
+  
+  
+  
+  
+</body>
+
+<style>
+
+
+
+div {
+  width: 200px;
+  height: 50px;
+  background-color: #71ABDD;
+  overflow: visible;
+}
+
+body {
+  background-color: #71ABDD;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+</html>
