@@ -108,7 +108,7 @@ li a {
   color: black;
 }
 li:hover{
-  background-color: yellow;
+  background-color: #71ABDD;
 }
 div.sample{
   position: absolute;
