@@ -21,7 +21,7 @@
   
   </p>
    
-  
+   
   <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--SXgYS23R--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/3P2H2C0b0V1F/Image%25202018-05-07%2520at%25204.47.33%2520PM.png" </img>
   
   
@@ -45,18 +45,30 @@ auto - Similar to scroll, but it adds scrollbars only when necessary.
   <h2><a href="https://www.w3schools.com/css/css_overflow.asp"> Visit For Sample Code </h2></a>
   
   
+      <ul>
+  <li><a href="Font.html"> Font </a></li>
+  <li><a href="Alignment.html"> Alignment </a></li>
+  <li><a href="Formatclearing.html"> Format Clearing </a></li>
+  <li><a href="Overflow.html"> Overflow </a></li>
+  <li><a href="Clearfix.html"> Clearfix </a></li>
+  
+  </ul>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </body>
 
 <style>
 
 
 
-div {
-  width: 200px;
-  height: 50px;
-  background-color: #71ABDD;
-  overflow: visible;
-}
 
 body {
   background-color: #71ABDD;
@@ -73,7 +85,29 @@ h1{
 
 
 
-
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #DDA371;
+  position: fixed;
+  top: 0;
+}
+li{
+ text-align:center;
+  display: inline;
+}
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 5px 50px;
+  color: black;
+}
+li:hover{
+  background-color: #71ABDD;
+}
 
 
 
