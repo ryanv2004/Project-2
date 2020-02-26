@@ -93,6 +93,14 @@ li:hover{
 </style>
 
 <body>
+<ul>
+  <li><a href="Font.html"> Font </a></li>
+  <li><a href="Alignment.html"> Alignment </a></li>
+  <li><a href="Formatclearing.html"> Format Clearing </a></li>
+  <li><a href="Overflow.html"> Overflow </a></li>
+  <li><a href="Clearfix.html"> Clearfix </a></li>
+  
+  </ul>
   <h1> Text Font </h1>
   <div class="bold">
     Example Of Bold
