@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
 
+<style>
+body{ 
+background-color:#71abdd;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+div.bold{
+  font-size: 30px;
+  border: 3px solid #dda371;
+  width: 250px;
+  text-align: center;
+}
+div.bolded{
+  font-size: 25px;
+  border: 3px solid #dda371;
+}
+div.italics{
+  font-size: 30px;
+  border: 3px solid #dda371;
+  width: 250px;
+  text-align: center;
+}
+div.italic{
+  font-size: 25px;
+  border: 3px solid #dda371;
+}
+div.size{
+  font-size: 30px;
+  border: 3px solid #dda371;
+  width: 250px;
+  text-align: center;
+}
+div.fontsize{
+   font-size: 50px;
+  border: 3px solid #dda371;
+}
+div.underline{
+   font-size: 30px;
+  border: 3px solid #dda371;
+  width: 250px;
+  text-align: center;
+}
+div.underlinetext{
+  text-decoration: underline;
+  font-size: 30px;
+  border: 3px solid #dda371;
+}
+div.linethrough{
+    font-size: 30px;
+  border: 3px solid #dda371;
+  width: 250px;
+  text-align: center;
+}
+div.linethroughtext{
+  font-size: 30px;
+  border: 3px solid #dda371;
+  text-decoration: line-through;
+}
+</style>
+
+<body>
+  <h1> Text Font </h1>
+  <div class="bold">
+    Example Of Bold
+   </div>
+  <div class=" bolded"> <b>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Risus pretium quam vulputate dignissim suspendisse. Vitae nunc sed velit dignissim sodales ut. </b> </div>
+  <div class="italics">
+     Example Of Italics
+  </div>
+  <div class="italic"> <i>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Risus pretium quam vulputate dignissim suspendisse. Vitae nunc sed velit dignissim sodales ut. </i> </div>
+       <div class=" size">
+         Example Of Font Size 50
+  </div>
+  <div class= "fontsize">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Risus pretium quam vulputate dignissim suspendisse. Vitae nunc sed velit dignissim sodales ut. 
+  </div>
+  <div class= "underline">
+    Example Of Underline
+  </div>
+  <div class= "underlinetext">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Risus pretium quam vulputate dignissim suspendisse. Vitae nunc sed velit dignissim sodales ut. 
+  </div>
+  <div class= " linethrough">
+    Example Of Linethrough
+  </div>
+  <div class= "linethroughtext">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Risus pretium quam vulputate dignissim suspendisse. Vitae nunc sed velit dignissim sodales ut. 
+  </div>
+         
+  
+</body>
+</html>
