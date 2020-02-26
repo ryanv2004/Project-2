@@ -1,4 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <pre><div class="tiktok"><p> Clearfix is a property that 
+  you can add to your code in 
+  html and CSS. The clearfix allows a container 
+  to wrap its floated children. 
+  Without a clearfix or equivalent styling, 
+  a container does not wrap around its 
+  floated children and collapses,
+  just as if its floated children 
+  were positioned absolutely.
+  </div></pre>
+  
+  
+  <img src="Images/clearfix.jpg" class="clear"></img>
+  
+  <img src="Images/Capturee.PNG" class="cl"></img>
+  
+  <h1 class=> CLEARFIX PROPERTY </h1>
+  
+</body>
 
+
+
+
+
+
+
+
+<style>
+
+body{
+background-color: #71ABDD;}
+
+
+.clear{
+position: absolute;
+right: 50px;
+top:100px;
+}
+
+
+.cl{
+position: absolute;
+right:50px;
+top: 450px;
+}
+
+h1{
+text-align: center;
+}
+
+div.tiktok{
+position: absolute;
+text-align: center;
+border: solid gold 3px;
+left: 700px;
+top:300px;
+
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
 
 
 
