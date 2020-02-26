@@ -8,7 +8,8 @@
 </head>
 <style>
 body{
-  background-color:#71ABDD
+  background-color:#71ABDD;
+  margin: 0;
 }
 h1{
   text-align: center;
@@ -86,8 +87,44 @@ div.lorem4{
   right: 1px;
   max-height: 300px;
 }
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #DDA371;
+  position: fixed;
+  top: 0;
+}
+li{
+ text-align:center;
+  display: inline;
+}
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 5px 50px;
+  color: black;
+}
+li:hover{
+  background-color: yellow;
+}
+div.sample{
+  position: absolute;
+  top: 5%;
+  font-size: 20px;
+}
 </style>
 <body>
+  <ul>
+  <li><a href="Font.html"> Font </a></li>
+  <li><a href="Alignment.html"> Alignment </a></li>
+  <li><a href="Formatclearing.html"> Format Clearing </a></li>
+  <li><a href="Overflow.html"> Overflow </a></li>
+  <li><a href="Clearfix.html"> Clearfix </a></li>
+  
+  </ul>
   <h1> Text Alignment </h1>
  <div class="center">
    This is an example of center alignment. 
@@ -110,8 +147,8 @@ div.lorem4{
   </div>
   <div class="lorem4">
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Sit amet nulla facilisi morbi tempus iaculis. Libero nunc consequat interdum varius sit. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Aliquam sem fringilla ut morbi tincidunt augue interdum. Ullamcorper velit sed ullamcorper morbi tincidunt. A iaculis at erat pellentesque adipiscing commodo elit at. Non quam lacus suspendisse faucibus interdum posuere. Varius quam quisque id diam vel quam elementum pulvinar. In hac habitasse platea dictumst quisque sagittis. Sed tempus urna et pharetra. Quisque non tellus orci ac auctor augue mauris augue. Orci sagittis eu volutpat odio. Habitant morbi tristique senectus et. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Nullam eget felis eget nunc lobortis mattis. </div>
-    
-    
+    <div class="sample"
+    <h2> <a href="https://www.w3schools.com/cssref/pr_text_text-align.ASP"> Visit For Sample Code </h2></a></div>
   
 </body>
 </html>
