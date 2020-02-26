@@ -53,9 +53,40 @@ float:right
  clear:both;
  font-size:20px
 }
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #DDA371;
+  position: fixed;
+  top: 0;
+}
+li{
+ text-align:center;
+  display: inline;
+}
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 5px 50px;
+  color: black;
+}
+li:hover{
+  background-color: #71ABDD;
+}
 </style>
 </head>
 <body>
+  <ul>
+  <li><a href="Font.html"> Font </a></li>
+  <li><a href="Alignment.html"> Alignment </a></li>
+  <li><a href="Formatclearing.html"> Format Clearing </a></li>
+  <li><a href="Overflow.html"> Overflow </a></li>
+  <li><a href="Clearfix.html"> Clearfix </a></li>
+  
+  </ul>
   <div align="center">
   <h1>Format Clearing</h1>
   </div>
@@ -114,6 +145,6 @@ Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Netus et 
 
 Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Egestas congue quisque egestas diam in arcu. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Tellus at urna condimentum mattis pellentesque id nibh tortor. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Urna et pharetra pharetra massa massa ultricies mi quis. Posuere ac ut consequat semper viverra nam libero justo laoreet. Eu mi bibendum neque egestas congue quisque egestas diam. Commodo elit at imperdiet dui accumsan. Nec sagittis aliquam malesuada bibendum arcu vitae. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Gravida dictum fusce ut placerat orci nulla. Est sit amet facilisis magna etiam. Et pharetra pharetra massa massa ultricies. Risus sed vulputate odio ut enim. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Dolor morbi non arcu risus quis varius quam. Dictum non consectetur a erat nam. Magna sit amet purus gravida quis blandit turpis. Congue quisque egestas diam in arcu cursus.</p>       
   </div>
-  
+  <h2><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_class-clear"> Vist For Sample Code </h2></a>
 </body>
 </html>
