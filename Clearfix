@@ -29,7 +29,11 @@
   
     <h2><a href="https://www.educative.io/edpresso/what-is-a-clearfix-in-css"> Visit For Sample Code </h2></a>
   
-  
+   <ul>
+  <li><a href="Font.html"> Font </a></li>
+  <li><a href="Alignment.html"> Alignment </a></li>
+  <li><a href="Formatclearing.html"> Format Clearing </a></li>
+  <li><a href="Overflow.html"> Overflow </a></li>
   
 </body>
 
@@ -71,11 +75,7 @@ left: 700px;
 top:300px;
 
 }
- <ul>
-  <li><a href="Font.html"> Font </a></li>
-  <li><a href="Alignment.html"> Alignment </a></li>
-  <li><a href="Formatclearing.html"> Format Clearing </a></li>
-  <li><a href="Overflow.html"> Overflow </a></li>
+ 
  
 ul{
   list-style-type: none;
