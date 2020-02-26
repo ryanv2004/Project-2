@@ -71,6 +71,29 @@ left: 700px;
 top:300px;
 
 }
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #DDA371;
+  position: fixed;
+  top: 0;
+}
+li{
+ text-align:center;
+  display: inline;
+}
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 5px 50px;
+  color: black;
+}
+li:hover{
+  background-color: #71ABDD;
+}
 </style>
 
 
